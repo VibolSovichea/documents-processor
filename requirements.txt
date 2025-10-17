@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+langchain
+langchain-pinecone
+langchain-openai
+pydantic
+requests
+python-dotenv
+httpx
+tqdm
+pydantic-settings
