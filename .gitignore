@@ -1,0 +1,66 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.sqlite3
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+*.env
+.env.*
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Byte-compiled / Cache ---
+*.egg-info/
+.eggs/
+build/
+dist/
+.cache/
+.pytest_cache/
+
+# --- Jupyter / Notebooks ---
+.ipynb_checkpoints/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Docker ---
+/docker-compose.override.yml
+/docker-compose.local.yml
+/.docker/
+*.pid
+
+# --- Test Artifacts ---
+coverage/
+htmlcov/
+.tox/
+.mypy_cache/
+pytestdebug.log
+
+# --- Temporary Data ---
+tmp/
+temp/
+*.bak
+*.tmp
+
+# --- Generated files ---
+/app/__pycache__/
+/app/**/__pycache__/
+*.db
+*.json
+
+# --- API Keys / Credentials ---
+# (you can have a .env.example instead)
+.env
