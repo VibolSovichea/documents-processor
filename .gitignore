@@ -64,3 +64,6 @@ temp/
 # --- API Keys / Credentials ---
 # (you can have a .env.example instead)
 .env
+
+# --- shell scripts ---
+*.sh
